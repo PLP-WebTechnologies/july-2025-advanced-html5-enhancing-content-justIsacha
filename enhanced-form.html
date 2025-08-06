@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my page</h1>
+        <p>This page demonstrates well-structured HTML5 content with lists, tables, media, and an accessible form.</p>
+    </header>
+</body>
+
+<section Listing="features list">
+    <ul>
+        <li>Responsive layout</li>
+        <li>Accessible semantic tags</li>
+        <li>HTML5 validation forms</li>
+        <li>Use of lists, tables and media</li>
+    </ul>
+</section>
+
+<section Table="data table">
+    <h2 id="data table">Product Pricing Table</h2>
+    <table>
+        <caption>Sample Pricing for Laptops</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Specs</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HP 14'Notebook</td>
+                <td>Intel Celeron, 4GB RAM/256GB SSD</td>
+                <td>KSH 38, 999</td>
+                <td>In stock</td>
+            </tr>
+                        <tr>
+                <td>Dell 7300</td>
+                <td>Corei5, 8GB RAM/256GB SSD</td>
+                <td>KSH 28, 999</td>
+                <td>Out of stock</td>
+            </tr>
+                        <tr>
+                <td>Lenovo Thinkpad E14</td>
+                <td>core i7,, 16GB RAM/512GB SSD</td>
+                <td>KSH 95, 999</td>
+                <td>In stock</td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+<section image="product image">
+    <h2 id="product image">Featured product Image</h2>
+   <img src="laptop.jpg" alt="a featured laptop" width="400" height="250">
+</section>
+
+<section video="video for product">
+    <h2 id="video for product">Product Video</h2>
+    <video controls width="600">
+        <source src="laptop video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</section>
+<section Form="contact form">
+    <h2 id="contact form"> Contact and Order Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="product">Select Product:</label>
+        <select id="product" name="product">
+            <option value="hp-notebook">HP 14' Notebook</option>
+            <option value="dell-7300">Dell 7300</option>
+            <option value="lenovo-thinkpad-e14">Lenovo Thinkpad E14</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+        <button type="submit">Submit Order</button>
+    </form>
+
+</section>
+</html>
+
+<footer>
+    <p>&copy 2025 Victor Mwololo. All rights reserved.</p>
+</footer>
